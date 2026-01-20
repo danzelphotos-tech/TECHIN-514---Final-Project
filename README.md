@@ -43,7 +43,7 @@ Parts (display device):
 
 The sensor device estimates BPM from audio and sends BPM (and optional confidence) over BLE to the display device. The display device smooths incoming BPM values and maps them to gauge needle position, facial animation states, and LED patterns.
 
-![BLE communication & System / data-flow diagram](images/ble system flow.png)
+![BLE communication & diagram](images/vibe_ble_flow.png)
 
 ## Datasheets
 
