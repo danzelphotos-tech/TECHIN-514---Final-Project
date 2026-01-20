@@ -21,7 +21,7 @@ The sensor device is a compact, battery-powered module placed near the music sou
 
 Parts (sensor device):
 - Microcontroller: Seeed Studio XIAO ESP32-C3 (ESP32-C3)
-- Microphone: INMP441 (I2S MEMS microphone)  (or replace with your chosen part number)
+- Microphone: INMP441 (I2S MEMS microphone) 
 
 ![Sensor device sketch](images/vibe_sensor.png)
 
@@ -32,7 +32,7 @@ The display device is a 3D-printed desktop robot that receives BPM data and visu
 Parts (display device):
 - Microcontroller: Seeed Studio XIAO ESP32-C3 (ESP32-C3)
 - Stepper motor: 28BYJ-48
-- Stepper driver: ULN2003 driver board (or your chosen driver)
+- Stepper driver: ULN2003 driver board 
 - OLED: 0.96" SSD1306 I2C OLED
 - LEDs: WS2812B addressable LEDs
 - Button: 6x6mm tactile pushbutton
@@ -43,8 +43,7 @@ Parts (display device):
 
 The sensor device estimates BPM from audio and sends BPM (and optional confidence) over BLE to the display device. The display device smooths incoming BPM values and maps them to gauge needle position, facial animation states, and LED patterns.
 
-![BLE communication diagram](images/vibe_ble_flow.png)
-![System / data-flow diagram](images/vibe_system_diagram.png)
+![BLE communication & System / data-flow diagram](images/ble system flow.png)
 
 ## Datasheets
 
