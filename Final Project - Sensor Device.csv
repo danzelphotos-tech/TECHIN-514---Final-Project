@@ -1,0 +1,5 @@
+"Reference","Qty","Value","DNP","Exclude from BOM","Exclude from Board","Footprint","Datasheet"
+"C_MIC?","1","0.1 µF ceramic capacitor","","","","","~"
+"INMP441","1","~","","","","",""
+"J1","1","J_BATT","","","","","~"
+"U1","1","XIAO ESP32C3","","","","XIAO_ESP32C3:xiao_esp32c3","https://files.seeedstudio.com/wiki/Seeed-Studio-XIAO-ESP32/esp32-c3_datasheet.pdf"
